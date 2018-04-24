@@ -7,8 +7,6 @@ import java.io.ObjectOutput;
 
 public class Employee extends Person implements Externalizable {
 
-	private static final long serialVersionUID = -4724957588046435474L;
-	
 	public Employee() {
 		System.out.println("Employee default constructor is called..");
 	}
